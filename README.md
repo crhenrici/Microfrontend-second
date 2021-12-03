@@ -1,5 +1,8 @@
 # microfrontend-second
 
+## Purpose
+Testing a micro-frontend approach following the example by [Jack Herrington's Simplified Micro-Frontends in Vue](https://www.youtube.com/watch?v=YQvQwTAqXE8). This micro-frontend is being consumed by [my other micro-frontend example](https://github.com/crhenrici/Microfrontend-test).
+
 ## Project setup
 ```
 npm install
