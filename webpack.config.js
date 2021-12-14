@@ -4,9 +4,6 @@ const { VueLoaderPlugin } = require("vue-loader");
 const path = require("path");
 
 module.exports = {
-  output: {
-    publicPath: "http://localhost:8080/",
-  },
 
   resolve: {
     extensions: [".tsx", ".ts", ".vue", ".jsx", ".js", ".json"],
@@ -42,7 +39,7 @@ module.exports = {
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {
-        './TestVue': './src/components/TestVue.vue'
+        './TestVue': './src/components/TestVue.vue',
       },
       shared: require("./package.json").dependencies,
     }),
